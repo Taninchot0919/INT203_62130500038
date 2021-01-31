@@ -19,143 +19,158 @@
   <script src="https://unpkg.com/vue@next"></script>
 
 
-  <div id="app" class="w-screen h-screen bg-gray-100"> 
-      <div id="navbar" class="m-0 p-0 overflow-hidden" style="background-color: #2e343e ;">
-        <span class="material-icons float-left inline-block text-white text-center no-underline py-5 px-4" style="background-color: #54b2bc;">menu_book</span>
-        <button class="float-left bg-gray-900 inline-block  text-white hover:text-white text-center no-underline p-5 px-4">Class</button>
-        <button class="float-left inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-4">Comunity</button>
-        <button class="float-left inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-4">Support</button>
-        
-        <button class="material-icons float-right inline-block text-gray-400  hover:text-white text-center no-underline py-5 pr-10">
-          <div >keyboard_arrow_down</div>
-        </button>
+  <div id="app" class="w-screen h-screen bg-gray-100">
+    <div id="navbar" class="m-0 p-0 overflow-hidden" style="background-color: #2e343e ;">
+      <span class="material-icons float-left inline-block text-white text-center no-underline py-5 px-4"
+        style="background-color: #54b2bc;">menu_book</span>
+      <button
+        class="float-left bg-gray-900 inline-block  text-white hover:text-white text-center no-underline p-5 px-4">Class</button>
+      <button
+        class="float-left inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-4">Comunity</button>
+      <button
+        class="float-left inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-4">Support</button>
 
-        <button class="float-right inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-1 uppercase">Taninchot</button>
-        <button class="material-icons float-right inline-block text-white text-center no-underline py-5 px-4">chat_bubble</button>
-        <button class="material-icons float-right inline-block text-white text-center no-underline py-5 px-4">notifications</button>
-      </div>
+      <button
+        class="material-icons float-right inline-block text-gray-400  hover:text-white text-center no-underline py-5 pr-10">
+        <div>keyboard_arrow_down</div>
+      </button>
 
-      <div id="under-navbar" class=" m-0 p-0 overflow-hidden bg-white">
-        <div id="current" class="float-left inline-block text-gray-600 text-center no-underline py-3 px-4 text-sm">
+      <button
+        class="float-right inline-block text-gray-400 hover:text-white text-center no-underline py-5 px-1 uppercase">Taninchot</button>
+      <button
+        class="material-icons float-right inline-block text-white text-center no-underline py-5 px-4">chat_bubble</button>
+      <button
+        class="material-icons float-right inline-block text-white text-center no-underline py-5 px-4">notifications</button>
+    </div>
+
+    <div id="under-navbar" class=" m-0 p-0 overflow-hidden bg-white">
+      <div id="current" class="float-left inline-block text-gray-600 text-center no-underline py-3 px-4 text-sm">
         <button>Current</button>
-        </div>
-        <div id="Archive" class="float-left inline-block text-gray-600 text-center no-underline py-3 px-4 text-sm">
+      </div>
+      <div id="Archive" class="float-left inline-block text-gray-600 text-center no-underline py-3 px-4 text-sm">
         <a>Archive</a>
-        </div>
-
       </div>
 
-      <div id="content">
-        <h1 class="pl-40 pt-10 font-bold text-2xl">Published Classes 
-          <div id="dropdown" class="float-right">
-            <!-- ปุ่มลอยๆ ยังทำไม่ได้ -->
+    </div>
+
+    <div id="content">
+      <h1 class="pl-40 pt-10 font-bold text-2xl">Published Classes
+        <div id="dropdown" class="float-right">
+          <!-- ปุ่มลอยๆ ยังทำไม่ได้ -->
           <button type="text" value="1234"></button>
-        </div>       
-       </h1>
-        <p class="pl-40 pt-1 text-sm text-gray-500">These classes are available to students.</p>
-        
-        <div id="box-upper" class="flex mt-3 ml-40">
-          <div id="box1">
-            <div class="mr-0 pt-3 h-36 w-64 rounded-t mb-0 bg-cover from-black to-transparent" style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
-              <p class="text-white ml-3 text-3xl font-bold">INT 206</p>
-              <p class="text-white ml-3 mt-3 mr-10 uppercase">Advanced Database</p>
-            </div>
-            <div class=" h-16 bg-white rounded-b">
-              <div class="ml-3 pt-2">
-                <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
-                <p class="text-xs text-gray-400">Section</p>
-                <p class="float-right mr-3">2/2020</p>
-                <p>1</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="box2" class="ml-8">
-            <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent" style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);" >
-              <p class="text-white ml-3 text-3xl font-bold">INT 209</p>
-              <p class="text-white ml-3 mt-3 mr-10 uppercase">devOps</p>
-            </div>
-            <div class=" h-16 bg-white rounded-b">
-              <div class="ml-3 pt-2">
-                <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
-                <p class="text-xs text-gray-400">Section</p>
-                <p class="float-right mr-3">2/2020</p>
-                <p>1</p>
-              </div>
-            </div>
-          </div>
-          
-          <div id="box3" class="ml-8">
-            <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent" style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
-              <p class="text-white ml-3 text-3xl font-bold">INT 210</p>
-              <p class="text-white ml-3 mt-3 mr-10 uppercase">ARCHITECTURE, INTEGRATION AND DEPLOYMENT</p>
-            </div>
-            <div class=" h-16 bg-white rounded-b">
-              <div class="ml-3 pt-2">
-                <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
-                <p class="text-xs text-gray-400">Section</p>
-                <p class="float-right mr-3">2/2020</p>
-                <p>1</p>
-              </div>
-            </div>
-          </div>
-
-          <div id="box4" class="ml-8">
-            <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent" style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
-              <p class="text-white ml-3 text-3xl font-bold">INT 203</p>
-              <p class="text-white ml-3 mt-3 mr-10 uppercase">Client Side Web Programming II</p>
-            </div>
-            <div class=" h-16 bg-white rounded-b">
-              <div class="ml-3 pt-2">
-                <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
-                <p class="text-xs text-gray-400">Section</p>
-                <p class="float-right mr-3">2/2020</p>
-                <p>1</p>
-              </div>
-            </div>
-          </div>
-
         </div>
-        <div id="box-lower" class="flex mt-6 ml-40">
+      </h1>
+      <p class="pl-40 pt-1 text-sm text-gray-500">These classes are available to students.</p>
 
-          <div id="box5">
-            <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent" style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
-              <p class="text-white ml-3 text-3xl font-bold">INT 204</p>
-              <p class="text-white ml-3 mt-3 mr-10 uppercase">Server-side Web Programming II</p>
-            </div>
-            <div class=" h-16 bg-white rounded-b">
-              <div class="ml-3 pt-2">
-                <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
-                <p class="text-xs text-gray-400">Section</p>
-                <p class="float-right mr-3">2/2020</p>
-                <p>1</p>
-              </div>
+      <div id="box-upper" class="flex mt-3 ml-40 space-x-10">
+        <div id="box1">
+          <div class="mr-0 pt-3 h-36 w-64 rounded-t mb-0 bg-cover from-black to-transparent"
+            style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
+            <p class="text-white ml-3 text-3xl font-bold">INT 206</p>
+            <p class="text-white ml-3 mt-3 mr-10 uppercase">Advanced Database</p>
+          </div>
+          <div class=" h-16 bg-white rounded-b">
+            <div class="ml-3 pt-2">
+              <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
+              <p class="text-xs text-gray-400">Section</p>
+              <p class="float-right mr-3">2/2020</p>
+              <p>1</p>
             </div>
           </div>
-
         </div>
-        
+
+        <div id="box2" class="">
+          <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent"
+            style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
+            <p class="text-white ml-3 text-3xl font-bold">INT 209</p>
+            <p class="text-white ml-3 mt-3 mr-10 uppercase">devOps</p>
+          </div>
+          <div class=" h-16 bg-white rounded-b">
+            <div class="ml-3 pt-2">
+              <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
+              <p class="text-xs text-gray-400">Section</p>
+              <p class="float-right mr-3">2/2020</p>
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="box3" class="">
+          <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent"
+            style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
+            <p class="text-white ml-3 text-3xl font-bold">INT 210</p>
+            <p class="text-white ml-3 mt-3 mr-10 uppercase">ARCHITECTURE, INTEGRATION AND DEPLOYMENT</p>
+          </div>
+          <div class=" h-16 bg-white rounded-b">
+            <div class="ml-3 pt-2">
+              <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
+              <p class="text-xs text-gray-400">Section</p>
+              <p class="float-right mr-3">2/2020</p>
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="box4" class="">
+          <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent"
+            style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
+            <p class="text-white ml-3 text-3xl font-bold">INT 203</p>
+            <p class="text-white ml-3 mt-3 mr-10 uppercase">Client Side Web Programming II</p>
+          </div>
+          <div class=" h-16 bg-white rounded-b">
+            <div class="ml-3 pt-2">
+              <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
+              <p class="text-xs text-gray-400">Section</p>
+              <p class="float-right mr-3">2/2020</p>
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="box-lower" class="flex mt-6 ml-40 space-x-10">
+
+        <div id="box5">
+          <div class="mr-0 pt-3 h-36 w-64 bg-gray-800 rounded-t mb-0 bg-cover from-black to-transparent"
+            style="background-image: url(images/photo-1581291518857-4e27b48ff24e.jpeg);">
+            <p class="text-white ml-3 text-3xl font-bold">INT 204</p>
+            <p class="text-white ml-3 mt-3 mr-10 uppercase">Server-side Web Programming II</p>
+          </div>
+          <div class=" h-16 bg-white rounded-b">
+            <div class="ml-3 pt-2">
+              <p class="float-right mr-3 text-xs text-gray-400">Semester</p>
+              <p class="text-xs text-gray-400">Section</p>
+              <p class="float-right mr-3">2/2020</p>
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
+    </div>
 
-      <div id="before-footer " class="right-5 bottom-6 fixed flex">
-        <div id="border-white 1" class="p-1 rounded-full bg-white">
-          <span class="material-icons border rounded-full p-5 relative text-white" style="background-color: #e6b161;">sticky_note_2</span>
-        </div>
-        <div id="border-white 1" class="p-1 rounded-full bg-white ml-1 ">
-          <span class="material-icons border rounded-full p-5 relative text-white" style="background-color: #58b3c1;">message</span>
-        </div>
+
+    <div id="before-footer " class="right-5 bottom-6 fixed flex">
+      <div id="border-white 1" class="p-1 rounded-full bg-white">
+        <span class="material-icons border rounded-full p-5 relative text-white"
+          style="background-color: #e6b161;">sticky_note_2</span>
       </div>
+      <div id="border-white 1" class="p-1 rounded-full bg-white ml-1 ">
+        <span class="material-icons border rounded-full p-5 relative text-white"
+          style="background-color: #58b3c1;">message</span>
+      </div>
+    </div>
 
-      <footer id="footer" class="w-screen bg-gray-800 left-0 bottom-0 fixed">
-        <p class="text-white float-left text-xs pl-5 pt-1">© 2016 KMUTT Learning Environment All rights reserved.</p>
-        <p class="text-white float-right text-xs pr-5 pl-1">TH</p>
-        <p class="text-white float-right text-xs px-1">|</p>
-        <p class="text-white float-right text-xs pr-1">EN</p>
-      </footer>
+    <footer id="footer" class="w-screen bg-gray-800 left-0 bottom-0 fixed">
+      <p class="text-white float-left text-xs pl-5 pt-1">© 2016 KMUTT Learning Environment All rights reserved.</p>
+      <p class="text-white float-right text-xs pr-5 pl-1">TH</p>
+      <p class="text-white float-right text-xs px-1">|</p>
+      <p class="text-white float-right text-xs pr-1">EN</p>
+    </footer>
   </div>
   <!-- my main.js -->
   <script src="./main.js"></script>
-</body>
+  </body>
 
 </html>
